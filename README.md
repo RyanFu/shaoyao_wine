@@ -17,6 +17,5 @@
 	等有时间来补~
 #这里感谢tumobi的开源nideshop
 
-### 微信小程序客户端截图
-![首页](http://image.diyelf.com/syjp-home-github.png?imageMogr2/auto-orient/thumbnail/300x/blur/1x0/quality/95|imageslim)
+### 微信小程序预览
 ![二维码](http://image.diyelf.com/gh_5d9016a8f227_1280.jpg?imageMogr2/auto-orient/thumbnail/300x/blur/1x0/quality/95|imageslim)
