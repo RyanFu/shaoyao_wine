@@ -1,0 +1,25 @@
+<view class="container">
+  <view class="catalog">
+    <scroll-view class="cate" scroll-y="true">
+      <view class="cata-item" wx:for="{{categoryList}}" wx:key="key">
+        <!--<navigator url="url" class="banner">
+            <image class="image" src="{{item.wap_banner_url}}"></image>
+            <view class="txt">{{item.front_name}}</view>
+        </navigator>-->
+        <view class="hd">
+            <text class="line"></text>
+            <text class="txt">{{item.name}}</text>
+            <text class="line"></text>
+        </view>
+        <view class="bd">
+          <view wx:for="{{item.children}}" wx:for-item="citem" wx:key="vkey" wx:for-index="idx"  class="citem {{(idx+1) % 2 == 0 ? 'last' : ''}}">
+            <navigator url="/pages/category/category?id={{citem.id}}">
+                <!--<image class="icon" src="{{citem.wap_banner_url}}"></image>-->
+                <text class="txt">{{citem.name}}</text>
+            </navigator>
+          </view>
+        </view>
+      </view>
+    </scroll-view>
+  </view>
+</view>
