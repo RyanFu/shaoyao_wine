@@ -5,9 +5,9 @@ const qiniu = require('qiniu');
 function _upload(localFile) {
   let qnConfig = {
     bucket: 'syjp-images',
-    access: 'AgmT4eyfDoXzqH1Y2ukoLkQBJRpqNk9H_-8Ilq0R',
-    secret: 'x0iS6jXW5WmcJio14YE6U0MjiajSRy2aPoQdPZEk',
-    domain: 'http://image.diyelf.com/'
+    access: '',
+    secret: '',
+    domain: 'http://image.域名.com/'
   };
 
   let mac = new qiniu.auth.digest.Mac(qnConfig.access, qnConfig.secret);
